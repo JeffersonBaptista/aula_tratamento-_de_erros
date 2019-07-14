@@ -48,7 +48,7 @@ public class ProdutoController {
 		} else {
 			produtoService.cadastrarProduto(produto);
 			mensagens.add("Produto cadastrado");
-			modelAnsView.addObject("mensagens", erros);
+			modelAnsView.addObject("mensagens", mensagens);
 
 		}
 		modelAnsView.addObject("produtos", produtoService.exibirProdutos());

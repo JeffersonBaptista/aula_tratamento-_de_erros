@@ -1,0 +1,29 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    background-color:rgba(0, 0, 0, 0.30);
+    justify-content: space-between;
+}
+.lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista li {
+    padding-left: 10px;
+    list-style: none;
+ }
+.menu2 {
+    text-decoration: none;
+    color:wheat;
+}
+a{
+    text-decoration: none;
+}
+.erro{
+    color: brown;
+}
+.mensagem{
+    color: blue;
+}
